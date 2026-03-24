@@ -1,0 +1,2 @@
+this backend fallow microservices architecture and each service are independent 
+and this service can communicate using grpc if required

@@ -1,0 +1,66 @@
+# ---- Go build artifacts ----
+bin/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ---- Go module and cache ----
+go.sum
+vendor/
+*.mod~
+*.tmp
+
+# ---- Environment and configuration ----
+.env
+.env.local
+.env.*.local
+*.yaml
+*.yml
+
+# ---- Logs and debug ----
+*.log
+logs/
+debug/
+tmp/
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ---- Unit test outputs ----
+coverage.*
+*.coverprofile
+*.cov
+*.prof
+*.testresult
+test-results/
+Auth/test/output/
+
+# ---- System and backup ----
+Thumbs.db
+*.old
+*.backup
+*.zip
+*.tar
+*.gz
+
+# ---- Docker and CI/CD ----
+docker-compose.override.yml
+.docker/
+*.pid
+*.lock
+*.sock
+
+# ---- Misc ----
+__pycache__/
+node_modules/
